@@ -1,8 +1,8 @@
 import machine
 import time
 
-ch_on = [machine.Pin(0, machine.Pin.OUT, machine.Pin.PULL_UP)]
-ch_off = [machine.Pin(2, machine.Pin.OUT, machine.Pin.PULL_UP)]
+ch_on = [machine.Pin(0, machine.Pin.OUT)]
+ch_off = [machine.Pin(2, machine.Pin.OUT)]
 
 def switch(channel, value):
     if value == 1:
