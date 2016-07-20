@@ -25,3 +25,5 @@ Python (pip install esptool)
 WIndows:
 Terminal program (putty.exe)
 Node Flasher
+
+esptool --pro /dev/ttyUSB0 write_flash 0x00000 <Firmware/firmware_filename>
