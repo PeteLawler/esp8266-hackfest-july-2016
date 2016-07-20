@@ -1,5 +1,5 @@
 import machine
-import type
+import time
 
 ch_on = [machine.Pin(0, machine.Pin.OUTPUT, machine.Pin.PULL_UP)]
 ch_off = [machine.Pin(5, machine.Pin.OUTPUT, machine.Pin.PULL_UP)]
