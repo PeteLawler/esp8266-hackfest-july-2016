@@ -17,3 +17,11 @@ examples/python
 examples/lua
 
 remotepower - Our remote power source code
+
+Requirements:
+Linux:
+Terminal program (minicom, screen, putty)
+Python (pip install esptool)
+WIndows:
+Terminal program (putty.exe)
+Node Flasher
