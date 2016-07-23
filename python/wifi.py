@@ -8,7 +8,7 @@ ap_if.active(False)
 sta_if.active(True)
 
 while not sta_if.isconnected():
-  sta_if.connect('plawAP', '3.14159265359')
+  sta_if.connect('myAP', '3.14159265359')
   time.sleep(5)
 
 print(sta_if.ifconfig())
