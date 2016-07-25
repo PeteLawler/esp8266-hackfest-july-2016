@@ -22,8 +22,8 @@ Requirements:
 Linux:
 Terminal program (minicom, screen, putty)
 Python (pip install esptool)
-WIndows:
+Windows:
 Terminal program (putty.exe)
 Node Flasher
 
-esptool --pro /dev/ttyUSB0 write_flash 0x00000 <Firmware/firmware_filename>
+esptool --port /dev/ttyUSB0 write_flash 0x00000 <Firmware/firmware_filename>
